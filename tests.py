@@ -10,7 +10,7 @@ class TestBooksCollector:
     # затем, что тестируем add_two_books - добавление двух книг
     def test_add_new_book_add_two_books(self):
         # создаем экземпляр (объект) класса BooksCollector
-        collector = BooksCollector()
+        collector = BooksCollector(
 
         # добавляем две книги
         collector.add_new_book('Гордость и предубеждение и зомби')
